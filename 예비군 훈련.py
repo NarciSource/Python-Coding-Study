@@ -1,0 +1,5 @@
+annual,army,summon,rank = input().split()
+if annual=='0': print(0)
+elif annual in ['5','6'] and rank=='Private': print(20)
+elif summon=='N' and army in ['ROKA','ROKN'] and rank=='Private': print(32)
+else: print(28)
