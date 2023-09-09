@@ -1,0 +1,1 @@
+print("RUN" if input() in ['1','3','5','7'] else "STAY")
