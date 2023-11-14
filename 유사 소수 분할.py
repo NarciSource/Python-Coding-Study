@@ -1,0 +1,1 @@
+print('possible' if sum([2*3,2*5,2*7])<int(input()) else 'impossible')
