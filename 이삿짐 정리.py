@@ -1,0 +1,1 @@
+print("possible" if ''.join(input().split()) in ['RGB','GBR','BRG'] else "impossible")
