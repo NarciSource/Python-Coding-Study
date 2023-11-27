@@ -1,0 +1,1 @@
+print("possible" if [input() for _ in range(3)][1][1]=='0' else "impossible")
